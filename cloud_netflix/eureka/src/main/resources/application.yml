@@ -1,0 +1,48 @@
+spring:
+  profiles:
+    active: standalone
+---
+server:
+  port: 8222
+spring:
+  profiles: standalone
+  application:
+    name: eureka-standalone
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+  instance:
+    hostname: localhost
+---
+server:
+  port: 8223
+spring:
+  profiles: eureka1
+  application:
+    name: eureka-1
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-2:8224/eureka/
+  instance:
+    hostname: eureka-1
+    instance-id: eureka-1
+    prefer-ip-address: true
+---
+server:
+  port: 8224
+spring:
+  profiles: eureka2
+  application:
+    name: eureka-2
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-1:8223/eureka/
+  instance:
+    hostname: eureka-2
+    instance-id: eureka-2
+    prefer-ip-address: true

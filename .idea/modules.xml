@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/blog_system/blog_system.iml" filepath="$PROJECT_DIR$/blog_system/blog_system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud_netflix/cloud_config/cloud_config.iml" filepath="$PROJECT_DIR$/cloud_netflix/cloud_config/cloud_config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud_netflix/cloud_netflix.iml" filepath="$PROJECT_DIR$/cloud_netflix/cloud_netflix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud_netflix/eureka/eureka.iml" filepath="$PROJECT_DIR$/cloud_netflix/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tron.iml" filepath="$PROJECT_DIR$/tron.iml" />
+    </modules>
+  </component>
+</project>
