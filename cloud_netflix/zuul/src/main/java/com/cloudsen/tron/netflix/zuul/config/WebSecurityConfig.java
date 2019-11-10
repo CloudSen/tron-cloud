@@ -1,4 +1,4 @@
-package com.cloudsen.torn.netflix.zuul.config;
+package com.cloudsen.tron.netflix.zuul.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;

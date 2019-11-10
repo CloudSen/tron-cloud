@@ -37,7 +37,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <!-- 指定该Main Class为全局的唯一入口  -->
                 <configuration>
-                    <mainClass></mainClass>
+                    <mainClass>com.cloudsen.tron.netflix.zuul</mainClass>
                 </configuration>
                 <executions>
                     <execution>
