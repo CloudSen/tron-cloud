@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud_config" />
         <module name="eureka" />
+        <module name="zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +20,7 @@
       <module name="cloudsen_netflix" target="1.8" />
       <module name="eureka" target="11" />
       <module name="tron" target="11" />
+      <module name="zuul" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -31,6 +33,7 @@
       <module name="cloudsen_netflix" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="tron" options="-parameters" />
+      <module name="zuul" options="-parameters" />
     </option>
   </component>
 </project>

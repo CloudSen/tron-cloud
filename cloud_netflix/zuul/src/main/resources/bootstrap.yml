@@ -1,0 +1,30 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: zuul-api-gateway
+  security:
+    user:
+      name: zuul
+      password: zuul
+      roles: USER
+---
+server:
+  port: 8444
+spring:
+  profiles: dev
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: config-center
+      label: master
+      profile: dev
+      fail-fast: true
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-1:8223/eureka/,http://eureka-2:8224/eureka/
+  instance:
+    prefer-ip-address: true
+    instance-id: zuul-api-gateway

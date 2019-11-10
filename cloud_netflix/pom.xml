@@ -12,6 +12,7 @@
     <modules>
         <module>eureka</module>
         <module>cloud_config</module>
+        <module>zuul</module>
     </modules>
 
     <artifactId>cloud_netflix</artifactId>

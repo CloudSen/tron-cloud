@@ -5,7 +5,7 @@
     <file url="file://$PROJECT_DIR$/blog_system" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud_netflix" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud_netflix/cloud_config" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud_netflix/cloud_config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud_netflix/eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_netflix/zuul" charset="UTF-8" />
   </component>
 </project>
